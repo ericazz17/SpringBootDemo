@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
+
+//The service will handle GET requests for /greeting, optionally with a name parameter in the query string.
+// The GET request should return a 200 OK response with JSON in the body that represents a greeting.
 public class DemoApplication {
 
 	public static void main(String[] args) {
